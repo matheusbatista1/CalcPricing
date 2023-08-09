@@ -1,6 +1,6 @@
 # CalcPricing: Estimador de Preços para Comissões de Arte
 ___________________________________________________________________________
-O CalcPricing é uma ferramenta online que ajuda artistas a calcular os preços para suas comissões artísticas. Selecione o tipo de arte, escolha itens extras e licenças, e veja um preço estimado instantaneamente.
+O CalcPricing é uma ferramenta online desenvolvida por mim que ajuda artistas a calcular os preços para suas comissões artísticas. Selecione o tipo de arte, escolha itens extras e licenças, e veja um preço estimado instantaneamente.
 
 Como Usar:
 
