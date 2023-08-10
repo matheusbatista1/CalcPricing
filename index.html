@@ -41,7 +41,7 @@
                 text-align: left;
                 padding-bottom: 50px;
             }
-            #qtd, .selectCalc{
+            .selectCalc{
                 width: 100%;
                 border-radius: 20px;
                 border: none;
@@ -64,6 +64,11 @@
                 font-family: 'Comfortaa', cursive;
                 transition: all 200ms ease;
             }
+            div#lblRes{
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+            }
             #btnCalcular:hover{
                 cursor: pointer;
                 background-color: var(--turquesaPrincipal);
@@ -81,6 +86,76 @@
             .inputCheck:hover, .lblCheck:hover{
                 cursor: pointer;
                 color: #F4598E;
+            }
+            .container, .lblCalc, .pCalc, #res, .selectCalc, #btnCalcular{
+                    transition: all 400ms ease;
+            }
+            @media(max-width: 600px){
+                .container, .lblCalc, .pCalc, #res, .selectCalc, #btnCalcular{
+                    transition: all 400ms ease;
+                }
+                .container{
+                    font-size: 12px;
+                    padding: 20px;
+                    padding-bottom: 30px;
+                }
+                .lblCalc{
+                    font-size: 14px;
+                }
+                .pCalc{
+                    font-size: 20px;
+                }
+                #res{
+                    font-size: 15px;
+                    bottom: 5px;
+                    left: 82px;
+                }
+                .selectCalc{
+                    font-size: 12px;   
+                }
+                #btnCalcular{
+                    font-size: 15px;
+                }
+                #btnCalcular:hover{
+                    transform: scale(1.0);
+                }
+                #btnCalcular:active{
+                    transform: scale(1.1);
+                }
+            }
+            @media(max-width: 360px){
+                .container, .lblCalc, .pCalc, #res, .selectCalc, #btnCalcular{
+                    transition: all 400ms ease;
+                }
+                .container{
+                    font-size: 10px;
+                    padding: 18px;
+                    padding-bottom: 26px;
+                    width: 200px;
+                }
+                .lblCalc{
+                    font-size: 12px;
+                }
+                .pCalc{
+                    font-size: 18px;
+                }
+                #res{
+                    font-size: 12px;
+                    bottom: 4px;
+                    left: 52px;
+                }
+                .selectCalc{
+                    font-size: 10px;   
+                }
+                #btnCalcular{
+                    font-size: 13px;
+                }
+                #btnCalcular:hover{
+                    transform: scale(1.0);
+                }
+                #btnCalcular:active{
+                    transform: scale(1.1);
+                }
             }
         </style>
     </head>
